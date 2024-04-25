@@ -1,0 +1,286 @@
+name,diet,period,lived_in,type,length,species
+aardonyx,herbivorous,Early Jurassic,South Africa,sauropod,8.0,celestae
+abelisaurus,carnivorous,Late Cretaceous,Argentina,large theropod,9.0,comahuensis
+achelousaurus,herbivorous,Late Cretaceous,USA,ceratopsian,6.0,horneri
+achillobator,carnivorous,Late Cretaceous,Mongolia,large theropod,5.0,giganteus
+acrocanthosaurus,carnivorous,Early Cretaceous,USA,large theropod,12.0,atokensis
+aegyptosaurus,herbivorous,Late Cretaceous,Egypt,sauropod,15.0,baharijensis
+afrovenator,carnivorous,Early Cretaceous,Niger,large theropod,9.0,abakensis
+agilisaurus,herbivorous,Late Jurassic,China,euornithopod,1.5,louderbacki
+alamosaurus,herbivorous,Late Cretaceous,USA,sauropod,21.0,sanjuanensis
+albertaceratops,herbivorous,Late Cretaceous,USA,ceratopsian,7.0,nesmoi
+albertosaurus,carnivorous,Late Cretaceous,Canada,large theropod,9.0,libratus
+alectrosaurus,carnivorous,Late Cretaceous,Mongolia,large theropod,5.0,olseni
+alioramus,carnivorous,Late Cretaceous,Mongolia,large theropod,6.0,remotus
+allosaurus,carnivorous,Late Jurassic,USA,large theropod,12.0,fragilis
+alvarezsaurus,carnivorous,Late Cretaceous,Argentina,small theropod,2.0,calvoi
+amargasaurus,herbivorous,Early Cretaceous,Argentina,sauropod,12.0,cazaui
+ammosaurus,herbivorous,Early Jurassic,USA,sauropod,5.0,major
+ampelosaurus,herbivorous,Late Cretaceous,France,sauropod,15.0,atacis
+amygdalodon,herbivorous,Mid Jurassic,Argentina,sauropod,15.0,patagonicus
+anchiceratops,herbivorous,Late Cretaceous,Canada,ceratopsian,6.0,ornatus
+anchisaurus,herbivorous,Early Jurassic,USA,sauropod,2.0,polyzelous
+ankylosaurus,herbivorous,Late Cretaceous,USA,armoured dinosaur,7.0,magniventris
+anserimimus,carnivorous,Late Cretaceous,Mongolia,large theropod,3.5,planinychus
+antarctosaurus,herbivorous,Late Cretaceous,Uruguay,sauropod,18.0,wichmannianus
+apatosaurus,herbivorous,Late Jurassic,USA,sauropod,21.0,ajax
+aragosaurus,herbivorous,Early Cretaceous,Spain,sauropod,18.0,ischiadicus
+aralosaurus,herbivorous,Late Cretaceous,Kazakhstan,euornithopod,8.0,tuberiferus
+archaeoceratops,herbivorous,Early Cretaceous,China,ceratopsian,1.3,oshimai
+archaeopteryx,carnivorous,Late Jurassic,Germany,small theropod,0.5,lithographica
+archaeornithomimus,carnivorous,Late Cretaceous,Uzbekistan,small theropod,3.5,asiaticus
+argentinosaurus,herbivorous,Late Cretaceous,Argentina,sauropod,35.0,huinculensis
+arrhinoceratops,herbivorous,Late Cretaceous,Canada,ceratopsian,6.0,brachyops
+atlascopcosaurus,herbivorous,Early Cretaceous,Australia,euornithopod,3.0,loadsi
+aucasaurus,carnivorous,Late Cretaceous,Argentina,large theropod,5.0,garridoi
+austrosaurus,herbivorous,Early Cretaceous,Australia,sauropod,15.0,mckillopi
+avaceratops,herbivorous,Late Cretaceous,USA,ceratopsian,2.3,lammersi
+avimimus,omnivorous,Late Cretaceous,Mongolia,small theropod,1.5,portentosus
+bactrosaurus,herbivorous,Late Cretaceous,China,euornithopod,6.0,johnsoni
+bagaceratops,herbivorous,Late Cretaceous,Mongolia,ceratopsian,1.0,rozhdestvenskyi
+bambiraptor,carnivorous,Late Cretaceous,USA,small theropod,1.0,feinbergorum
+barapasaurus,herbivorous,Early Jurassic,India,sauropod,14.0,tagorei
+barosaurus,herbivorous,Late Jurassic,USA,sauropod,24.0,lentus
+baryonyx,carnivorous,Early Cretaceous,United Kingdom,large theropod,10.0,walkeri
+becklespinax,carnivorous,Early Cretaceous,United Kingdom,large theropod,5.0,altispinax
+beipiaosaurus,omnivorous,Early Cretaceous,China,small theropod,2.0,inexpectus
+bellusaurus,herbivorous,Mid Jurassic,China,sauropod,5.0,sui
+borogovia,carnivorous,Late Cretaceous,Mongolia,small theropod,1.5,gracilicrus
+brachiosaurus,herbivorous,Late Jurassic,USA,sauropod,30.0,altithorax
+brachylophosaurus,herbivorous,Late Cretaceous,USA,euornithopod,7.0,canadensis
+brachytrachelopan,herbivorous,Mid Jurassic,Argentina,sauropod,10.0,mesai
+buitreraptor,carnivorous,Late Cretaceous,Argentina,small theropod,1.3,gonzalezorum
+camarasaurus,herbivorous,Late Jurassic,USA,sauropod,23.0,supremus
+camptosaurus,herbivorous,Late Jurassic,USA,euornithopod,5.0,dispar
+carcharodontosaurus,carnivorous,Late Cretaceous,North Africa,large theropod,15.0,saharicus
+carnotaurus,carnivorous,Late Cretaceous,Argentina,large theropod,7.6,sastrei
+caudipteryx,omnivorous,Early Cretaceous,China,small theropod,1.0,zoui
+cedarpelta,herbivorous,Early Cretaceous,USA,armoured dinosaur,10.0,bilbeyhallorum
+ceratosaurus,carnivorous,Late Jurassic,USA,large theropod,6.0,nasicornis
+cetiosauriscus,herbivorous,Mid Jurassic,United Kingdom,sauropod,15.0,stewarti
+cetiosaurus,herbivorous,Mid Jurassic,United Kingdom,sauropod,18.0,oxoniensis
+chaoyangsaurus,herbivorous,Late Jurassic,China,ceratopsian,1.1,youngi
+chindesaurus,carnivorous,Late Triassic,USA,small theropod,4.0,bryansmalli
+chinshakiangosaurus,herbivorous,Late Jurassic,China,sauropod,11.0,zhongheensis
+chirostenotes,omnivorous,Late Jurassic,Canada,small theropod,1.7,pergracilis
+chubutisaurus,herbivorous,Early Cretaceous,Argentina,sauropod,23.0,insignis
+chungkingosaurus,herbivorous,Late Jurassic,China,armoured dinosaur,4.0,jiangbeiensis
+citipati,omnivorous,Late Cretaceous,Mongolia,small theropod,2.1,osmolskae
+coelurus,carnivorous,Late Jurassic,USA,small theropod,1.8,fragilis
+coloradisaurus,omnivorous,Late Triassic,Argentina,sauropod,4.0,brevis
+compsognathus,carnivorous,Late Jurassic,Germany,small theropod,0.65,longipes
+conchoraptor,carnivorous,Late Cretaceous,Mongolia,small theropod,1.5,gracilis
+confuciusornis,carnivorous,Early Cretaceous,China,small theropod,0.25,sanctus
+corythosaurus,herbivorous,Late Cretaceous,USA,euornithopod,10.0,casuarius
+cryolophosaurus,carnivorous,Early Jurassic,Antarctica,large theropod,8.0,elliotti
+dacentrurus,herbivorous,Late Jurassic,United Kingdom,armoured dinosaur,6.0,armatus
+daspletosaurus,carnivorous,Late Cretaceous,Canada,large theropod,9.0,torosus
+datousaurus,herbivorous,Mid Jurassic,China,sauropod,15.0,bashanensis
+deinocheirus,omnivorous,Late Cretaceous,Mongolia,large theropod,10.0,mirificus
+deinonychus,carnivorous,Early Cretaceous,USA,small theropod,3.0,antirrhopus
+deltadromeus,carnivorous,Late Cretaceous,Morocco,large theropod,8.1,agilis
+dicraeosaurus,herbivorous,Late Jurassic,Tanzania,sauropod,20.0,hansemanni
+diplodocus,herbivorous,Late Jurassic,USA,sauropod,26.0,longus
+dromaeosaurus,carnivorous,Late Cretaceous,USA,small theropod,1.8,albertensis
+dromiceiomimus,omnivorous,Late Cretaceous,Canada,large theropod,3.5,brevitertius
+dryosaurus,herbivorous,Late Jurassic,USA,euornithopod,4.0,altus
+dryptosaurus,carnivorous,Late Cretaceous,USA,large theropod,6.4,aquilunguis
+edmontonia,herbivorous,Late Cretaceous,Canada,armoured dinosaur,4.0,longiceps
+edmontosaurus,herbivorous,Late Cretaceous,Canada,euornithopod,13.0,regalis
+einiosaurus,herbivorous,Late Cretaceous,USA,ceratopsian,6.0,procurvicornis
+elaphrosaurus,carnivorous,Late Jurassic,Tanzania,large theropod,6.2,bambergi
+emausaurus,herbivorous,Mid Jurassic,Germany,armoured dinosaur,2.0,ernsti
+eoraptor,carnivorous,Late Triassic,Argentina,small theropod,1.0,lunensis
+eotyrannus,carnivorous,Early Cretaceous,United Kingdom,large theropod,5.0,lengi
+erketu,herbivorous,Early Cretaceous,Mongolia,sauropod,15.0,ellisoni
+erlikosaurus,omnivorous,Late Cretaceous,Mongolia,small theropod,3.4,andrewsi
+euhelopus,herbivorous,Late Jurassic,China,sauropod,10.0,zdanskyi
+europasaurus,herbivorous,Late Jurassic,Germany,sauropod,6.2,holgeri
+eustreptospondylus,carnivorous,Mid Jurassic,United Kingdom,large theropod,7.0,oxoniensis
+fukuiraptor,carnivorous,Early Cretaceous,Japan,large theropod,4.2,kitadaniensis
+fukuisaurus,herbivorous,Early Cretaceous,Japan,euornithopod,4.7,tetoriensius
+gallimimus,omnivorous,Late Cretaceous,Mongolia,large theropod,6.0,bullatus
+gargoyleosaurus,herbivorous,Late Jurassic,USA,armoured dinosaur,4.0,parkpinorum
+garudimimus,omnivorous,Late Cretaceous,Mongolia,large theropod,4.7,brevipes
+gasosaurus,carnivorous,Mid Jurassic,China,small theropod,4.0,constructus
+gasparinisaura,herbivorous,Late Cretaceous,Argentina,euornithopod,0.8,cincosaltensis
+gastonia,herbivorous,Early Cretaceous,USA,armoured dinosaur,4.6,burgei
+giganotosaurus,carnivorous,Early Cretaceous,Argentina,large theropod,12.5,carolinii
+gilmoreosaurus,herbivorous,Late Cretaceous,China,euornithopod,6.0,mongoliensis
+giraffatitan,herbivorous,Late Jurassic,Tanzania,sauropod,23.0,brancai
+gobisaurus,herbivorous,Early Cretaceous,China,armoured dinosaur,5.0,domoculus
+gorgosaurus,carnivorous,Late Cretaceous,USA,large theropod,8.6,libratus
+goyocephale,herbivorous,Late Cretaceous,Mongolia,large theropod,2.0,lattimorei
+gryposaurus,herbivorous,Late Cretaceous,USA,euornithopod,10.0,notabilis
+guaibasaurus,herbivorous,Late Triassic,Brazil,small theropod,1.8,candelariensis
+guanlong,carnivorous,Late Jurassic,China,small theropod,3.0,wucaii
+hadrosaurus,herbivorous,Late Cretaceous,USA,euornithopod,9.0,foulkii
+haplocanthosaurus,herbivorous,Late Jurassic,USA,sauropod,21.5,priscus
+harpymimus,omnivorous,Early Cretaceous,Mongolia,small theropod,2.0,okladnikovi
+herrerasaurus,carnivorous,Late Triassic,Argentina,small theropod,3.0,ischigualastensis
+hesperosaurus,herbivorous,Late Jurassic,USA,armoured dinosaur,6.0,mjosi
+heterodontosaurus,herbivorous,Early Jurassic,South Africa,euornithopod,1.2,tucki
+heyuannia,omnivorous,Late Cretaceous,Mongolia,small theropod,2.0,yanshini
+homalocephale,herbivorous,Late Cretaceous,Mongolia,euornithopod,1.5,calathocercos
+huayangosaurus,herbivorous,Mid Jurassic,China,armoured dinosaur,4.5,taibaii
+hylaeosaurus,herbivorous,Early Cretaceous,United Kingdom,armoured dinosaur,5.0,armatus
+hypacrosaurus,herbivorous,Late Cretaceous,USA,euornithopod,9.0,altispinus
+hypsilophodon,herbivorous,Early Cretaceous,United Kingdom,euornithopod,2.3,foxii
+iguanodon,herbivorous,Early Cretaceous,United Kingdom,euornithopod,10.0,bernissartensis
+indosuchus,carnivorous,Late Cretaceous,India,large theropod,7.0,raptorius
+irritator,carnivorous,Early Cretaceous,Brazil,large theropod,6.5,challengeri
+janenschia,herbivorous,Late Jurassic,Tanzania,sauropod,20.0,robusta
+jaxartosaurus,herbivorous,Late Cretaceous,Kazakhstan,euornithopod,9.0,aralensis
+jingshanosaurus,herbivorous,Early Jurassic,China,sauropod,5.0,xinwaensis
+jobaria,herbivorous,Early Cretaceous,Niger,sauropod,21.0,tiguidensis
+juravenator,carnivorous,Late Jurassic,Germany,small theropod,0.8,starki
+kentrosaurus,herbivorous,Late Jurassic,Tanzania,armoured dinosaur,5.0,aethiopicus
+khaan,omnivorous,Late Cretaceous,Mongolia,small theropod,1.8,mckennai
+kotasaurus,herbivorous,Early Jurassic,India,sauropod,9.0,yamanpalliensis
+kritosaurus,herbivorous,Late Cretaceous,USA,euornithopod,8.0,navajovius
+lambeosaurus,herbivorous,Late Cretaceous,Canada,euornithopod,9.0,lambei
+leaellynasaura,herbivorous,Early Cretaceous,Australia,euornithopod,2.0,amicagraphica
+leptoceratops,herbivorous,Late Cretaceous,USA,ceratopsian,3.0,gracilis
+ligabuesaurus,herbivorous,Early Cretaceous,Argentina,sauropod,24.0,leanzai
+liliensternus,carnivorous,Late Triassic,Germany,small theropod,5.0,liliensterni
+lophorhothon,herbivorous,Late Cretaceous,USA,euornithopod,4.5,atopus
+lophostropheus,carnivorous,Early Jurassic,France,large theropod,6.2,airelensis
+lufengosaurus,herbivorous,Early Jurassic,China,sauropod,6.0,huenei
+lurdusaurus,herbivorous,Early Cretaceous,Niger,euornithopod,9.0,arenatus
+lycorhinus,herbivorous,Late Triassic,South Africa,euornithopod,1.2,angustidens
+magyarosaurus,herbivorous,Late Cretaceous,Romania,sauropod,5.0,dacus
+maiasaura,herbivorous,Late Cretaceous,USA,euornithopod,9.0,peeblesorum
+majungasaurus,carnivorous,Late Cretaceous,Madagascar,large theropod,6.0,atopus
+malawisaurus,herbivorous,Early Cretaceous,Malawi,sauropod,9.0,dixeyi
+mamenchisaurus,herbivorous,Late Jurassic,China,sauropod,22.0,constructus
+mapusaurus,carnivorous,Late Cretaceous,Argentina,large theropod,13.0,roseae
+marshosaurus,carnivorous,Late Jurassic,USA,large theropod,6.0,bicentesimus
+masiakasaurus,carnivorous,Late Cretaceous,Madagascar,small theropod,2.0,knopfleri
+massospondylus,omnivorous,Early Jurassic,Zimbabwe,sauropod,4.0,carinatus
+maxakalisaurus,herbivorous,Late Cretaceous,Brazil,sauropod,13.0,topai
+megalosaurus,carnivorous,Mid Jurassic,United Kingdom,large theropod,9.0,bucklandii
+melanorosaurus,omnivorous,Late Triassic,South Africa,sauropod,12.0,readi
+metriacanthosaurus,carnivorous,Late Jurassic,United Kingdom,large theropod,8.2,parkeri
+microceratus,herbivorous,Late Cretaceous,Mongolia,ceratopsian,0.5,gobiensis
+micropachycephalosaurus,herbivorous,Late Cretaceous,China,ceratopsian,0.6,hongtuyanensis
+microraptor,carnivorous,Early Cretaceous,China,small theropod,0.8,zhaoianus
+minmi,herbivorous,Early Cretaceous,Australia,armoured dinosaur,3.0,paravertebra
+monolophosaurus,carnivorous,Mid Jurassic,China,large theropod,5.7,jiangi
+mononykus,unknown,Late Cretaceous,Mongolia,small theropod,1.0,olecranus
+mussaurus,herbivorous,Late Triassic,Argentina,sauropod,3.0,patagonicus
+muttaburrasaurus,herbivorous,Early Cretaceous,Australia,euornithopod,7.0,langdoni
+nanshiungosaurus,omnivorous,Late Cretaceous,China,large theropod,4.4,brevispinus
+nedoceratops,herbivorous,Late Cretaceous,USA,ceratopsian,7.0,hatcheri
+nemegtosaurus,herbivorous,Late Cretaceous,Mongolia,sauropod,13.0,mongoliensis
+neovenator,carnivorous,Early Cretaceous,United Kingdom,large theropod,7.4,salerii
+neuquenosaurus,herbivorous,Late Cretaceous,Argentina,sauropod,10.0,australis
+nigersaurus,herbivorous,Early Cretaceous,Tunisia,sauropod,15.0,taqueti
+noasaurus,carnivorous,Late Cretaceous,Argentina,small theropod,1.0,leali
+nodosaurus,herbivorous,Early Cretaceous,USA,armoured dinosaur,5.0,textilis
+nomingia,omnivorous,Late Cretaceous,Mongolia,small theropod,1.6,gobiensis
+nothronychus,omnivorous,Late Cretaceous,USA,large theropod,5.3,mckinleyi
+nqwebasaurus,carnivorous,Mid Jurassic,South Africa,small theropod,1.0,thwazi
+omeisaurus,herbivorous,Mid Jurassic,China,sauropod,20.0,junghsiensis
+opisthocoelicaudia,herbivorous,Late Cretaceous,Mongolia,sauropod,12.0,skarzynskii 
+ornitholestes,carnivorous,Late Jurassic,USA,small theropod,2.0,hermanni
+ornithomimus,omnivorous,Late Cretaceous,USA,large theropod,4.0,velox
+orodromeus,herbivorous,Late Cretaceous,USA,euornithopod,2.0,makelai
+oryctodromeus,herbivorous,Late Cretaceous,USA,euornithopod,2.1,cubicularis
+othnielia,herbivorous,Late Jurassic,USA,euornithopod,1.4,rex
+ouranosaurus,herbivorous,Early Cretaceous,Niger,euornithopod,7.0,nigeriensis
+oviraptor,omnivorous,Late Cretaceous,Mongolia,small theropod,2.0,philoceratops
+pachycephalosaurus,herbivorous,Late Cretaceous,USA,euornithopod,8.0,wyomingensis
+pachyrhinosaurus,herbivorous,Late Cretaceous,Canada,ceratopsian,6.0,canadensis
+panoplosaurus,herbivorous,Late Cretaceous,USA,armoured dinosaur,7.0,mirus
+pantydraco,herbivorous,Early Jurassic,Wales,euornithopod,3.0,caducus
+paralititan,herbivorous,Late Cretaceous,Egypt,sauropod,28.0,stromeri
+parasaurolophus,herbivorous,Late Cretaceous,USA,euornithopod,11.0,walkeri
+parksosaurus,herbivorous,Late Cretaceous,Canada,euornithopod,3.0,warrenae
+patagosaurus,herbivorous,Mid Jurassic,Argentina,sauropod,18.0,fariasi
+pelicanimimus,carnivorous,Early Cretaceous,Spain,small theropod,2.0,polyodon
+pelorosaurus,herbivorous,Early Cretaceous,United Kingdom,sauropod,25.0,conybearei
+pentaceratops,herbivorous,Late Cretaceous,USA,ceratopsian,6.8,sternbergi
+piatnitzkysaurus,carnivorous,Late Jurassic,Argentina,large theropod,4.2,floresi
+pinacosaurus,herbivorous,Late Cretaceous,Mongolia,armoured dinosaur,5.0,grangeri
+plateosaurus,herbivorous,Late Triassic,Switzerland,sauropod,7.0,engelhardti
+podokesaurus,carnivorous,Mid Jurassic,USA,small theropod,0.9,holyokensis
+poekilopleuron,carnivorous,Mid Jurassic,France,large theropod,9.0,bucklandii
+polacanthus,herbivorous,Early Cretaceous,United Kingdom,armoured dinosaur,5.0,foxii
+prenocephale,herbivorous,Late Cretaceous,Mongolia,euornithopod,2.4,prenes
+probactrosaurus,herbivorous,Early Cretaceous,China,euornithopod,6.0,gobiensis
+proceratosaurus,carnivorous,Mid Jurassic,United Kingdom,small theropod,4.1,bradleyi
+procompsognathus,carnivorous,Late Triassic,Germany,small theropod,1.0,triassicus
+prosaurolophus,herbivorous,Late Cretaceous,USA,euornithopod,7.6,maximus
+protarchaeopteryx,carnivorous,Early Cretaceous,China,small theropod,2.0,robusta
+protoceratops,herbivorous,Late Cretaceous,Mongolia,ceratopsian,1.8,andrewsi
+protohadros,herbivorous,Late Cretaceous,USA,euornithopod,6.0,byrdi
+psittacosaurus,herbivorous,Early Cretaceous,Russia,ceratopsian,2.0,mongoliensis
+quaesitosaurus,herbivorous,Late Cretaceous,Mongolia,sauropod,23.0,orientalis
+rebbachisaurus,herbivorous,Early Cretaceous,Morocco,sauropod,20.0,garasbae
+rhabdodon,herbivorous,Late Cretaceous,Spain,euornithopod,4.0,priscus
+rhoetosaurus,herbivorous,Mid Jurassic,Australia,sauropod,15.0,brownei
+rinchenia,omnivorous,Late Cretaceous,Mongolia,small theropod,2.5,mongoliensis
+riojasaurus,herbivorous,Late Triassic,Argentina,sauropod,5.15,incertus
+rugops,carnivorous,Late Cretaceous,Niger,large theropod,7.0,primus
+saichania,herbivorous,Late Cretaceous,Mongolia,armoured dinosaur,6.6,chulsanensis
+saltasaurus,herbivorous,Late Cretaceous,Argentina,sauropod,12.0,loricatus
+sarcosaurus,carnivorous,Early Jurassic,United Kingdom,small theropod,3.0,woodi
+saurolophus,herbivorous,Late Cretaceous,Mongolia,euornithopod,9.0,osborni
+sauropelta,herbivorous,Early Cretaceous,USA,armoured dinosaur,6.5,edwardsorum
+saurophaganax,carnivorous,Late Jurassic,USA,large theropod,12.0,maximus
+saurornithoides,carnivorous,Late Cretaceous,Mongolia,small theropod,3.0,mongoliensis
+scelidosaurus,herbivorous,Early Jurassic,United Kingdom,armoured dinosaur,4.0,harrisonii
+scutellosaurus,herbivorous,Early Jurassic,USA,armoured dinosaur,1.2,lawleri
+secernosaurus,herbivorous,Late Cretaceous,Argentina,euornithopod,3.0,koerneri
+segisaurus,carnivorous,Mid Jurassic,USA,small theropod,1.5,halli
+segnosaurus,carnivorous,Late Cretaceous,Mongolia,large theropod,4.0,galbinensis
+shanag,carnivorous,Early Cretaceous,Mongolia,small theropod,0.45,ashile
+shantungosaurus,herbivorous,Late Cretaceous,China,euornithopod,15.0,giganteus
+shunosaurus,herbivorous,Mid Jurassic,China,sauropod,10.0,lii
+shuvuuia,omnivorous,Late Cretaceous,Mongolia,small theropod,0.6,deserti
+silvisaurus,herbivorous,Early Cretaceous,USA,armoured dinosaur,4.0,condrayi
+sinocalliopteryx,carnivorous,Early Cretaceous,China,small theropod,2.37,gigas
+sinornithosaurus,carnivorous,Early Cretaceous,China,small theropod,2.0,millenii
+sinosauropteryx,carnivorous,Early Cretaceous,China,small theropod,1.0,prima
+sinovenator,carnivorous,Early Cretaceous,China,small theropod,1.0,changii
+sinraptor,carnivorous,Mid Jurassic,China,large theropod,7.6,hepingensis
+sonidosaurus,herbivorous,Late Cretaceous,China,sauropod,9.0,saihangaobiensis
+spinosaurus,carnivorous,Late Cretaceous,Morocco,large theropod,18.0,aegyptiacus
+staurikosaurus,carnivorous,Late Triassic,Brazil,large theropod,2.0,pricei
+stegoceras,herbivorous,Late Cretaceous,USA,euornithopod,2.4,validum
+stegosaurus,herbivorous,Late Jurassic,USA,armoured dinosaur,9.0,armatus
+stenopelix,herbivorous,Early Cretaceous,Germany,ceratopsian,1.5,valdensis
+struthiomimus,omnivorous,Late Cretaceous,Canada,small theropod,4.0,altus
+struthiosaurus,herbivorous,Late Cretaceous,Spain,armoured dinosaur,2.5,austriacus
+styracosaurus,herbivorous,Late Cretaceous,USA,ceratopsian,5.5,albertensis
+suchomimus,carnivorous,Early Cretaceous,Niger,large theropod,11.0,tenerensis
+supersaurus,herbivorous,Early Cretaceous,USA,sauropod,35.0,vivianae
+talarurus,herbivorous,Late Cretaceous,Mongolia,armoured dinosaur,6.0,plicatospineus
+tarbosaurus,carnivorous,Late Cretaceous,Mongolia,large theropod,10.0,bataar
+tarchia,herbivorous,Late Cretaceous,Mongolia,armoured dinosaur,8.5,gigantea
+telmatosaurus,herbivorous,Late Cretaceous,Spain,euornithopod,5.0,transsylvanicus
+tenontosaurus,herbivorous,Early Cretaceous,USA,euornithopod,7.0,tillettorum
+thecodontosaurus,omnivorous,Late Triassic,United Kingdom,sauropod,2.5,antiquus
+thescelosaurus,herbivorous,Late Cretaceous,USA,euornithopod,3.5,neglectus
+torosaurus,herbivorous,Late Cretaceous,USA,ceratopsian,7.5,latus
+torvosaurus,carnivorous,Late Jurassic,USA,large theropod,10.0,tanneri
+triceratops,herbivorous,Late Cretaceous,USA,ceratopsian,9.0,horridus
+troodon,carnivorous,Late Cretaceous,USA,small theropod,2.0,formosus
+tsintaosaurus,herbivorous,Late Cretaceous,China,euornithopod,12.0,spinorhinus
+tuojiangosaurus,herbivorous,Late Jurassic,China,armoured dinosaur,7.0,multispinus
+tylocephale,herbivorous,Late Cretaceous,Mongolia,euornithopod,1.4,gilmorei
+tyrannosaurus,carnivorous,Late Cretaceous,USA,large theropod,12.0,rex
+unenlagia,carnivorous,Late Cretaceous,Argentina,small theropod,2.4,comahuensis
+urbacodon,carnivorous,Late Cretaceous,Uzbekistan,small theropod,1.0,itemirensis
+utahraptor,carnivorous,Early Cretaceous,USA,large theropod,6.0,ostrommaysorum
+valdosaurus,herbivorous,Early Cretaceous,United Kingdom,euornithopod,3.0,canaliculatus
+velociraptor,carnivorous,Late Cretaceous,Mongolia,small theropod,1.8,mongoliensis
+vulcanodon,herbivorous,Early Jurassic,Zimbabwe,sauropod,6.5,karibaensis
+yandusaurus,herbivorous,Mid Jurassic,China,euornithopod,3.0,hongheensis
+yangchuanosaurus,carnivorous,Late Jurassic,China,large theropod,10.0,shangyouensis
+yimenosaurus,herbivorous,Early Jurassic,China,sauropod,9.0,youngi
+yinlong,herbivorous,Mid Jurassic,China,ceratopsian,1.2,downsi
+yuanmousaurus,herbivorous,Mid Jurassic,China,sauropod,17.0,jiangyiensis
+yunnanosaurus,omnivorous,Early Jurassic,China,sauropod,7.0,huangi
+zalmoxes,herbivorous,Late Cretaceous,Romania,euornithopod,3.0,robustus
+zephyrosaurus,herbivorous,Early Cretaceous,USA,euornithopod,1.8,schaffi
