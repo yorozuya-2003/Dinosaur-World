@@ -9,7 +9,7 @@ df = pd.read_csv('data.csv')
 external_stylesheets = ['https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap']
 
 # Create Dash app
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, prevent_initial_callbacks=True)
 
 # Define CSS styles
 styles = {
@@ -49,17 +49,6 @@ styles = {
         'align-items': 'center',
         'justify-content': 'space-between',
     },
-    'dino-card': {
-        'margin-bottom': '20px',
-        'padding': '10px',
-        'border': '0px solid #ddd',
-        'border-radius': '5px',
-        'cursor': 'pointer',
-        'width': '40%',
-        'margin-right': '2%',
-        'float': 'left',
-        'box-sizing': 'border-box'
-    },
 }
 
 # Define app layout
@@ -71,11 +60,10 @@ app.layout = html.Div([
         dcc.Dropdown(
             id='name-dropdown',
             options=[{'label': name, 'value': name} for name in df['name'].unique()],
-            value=None,
+            value=df['name'].unique()[0],
             className="custom-dropdown",
             style=styles['custom-dropdown'],
         ),
-        html.Hr(style={'border-color': '#ddd', 'margin-top': '10px', 'margin-bottom': '10px'}),
         html.Label('Diet', style=styles['dropdown-label']),
         dcc.Dropdown(
             id='diet-dropdown',
@@ -114,10 +102,9 @@ app.layout = html.Div([
     html.Div(id='main-content', style=styles['main-content'])
 ], style=styles['main-container'])
 
-
 # Callback to update name dropdown options based on other filters
 @app.callback(
-    Output('name-dropdown', 'options'),
+    Output('name-dropdown', 'options', allow_duplicate=True),
     [Input('diet-dropdown', 'value'),
      Input('period-dropdown', 'value'),
      Input('live_in_dropdown', 'value'),
@@ -136,51 +123,67 @@ def update_name_options(diet, period, place, type_):
         filtered_df = filtered_df[filtered_df['type'] == type_]
     return [{'label': name, 'value': name} for name in filtered_df['name'].unique()]
 
-# Callback to update dinosaur cards based on selected name
+# # Callback to update dinosaur info based on filters
+# @app.callback(
+#     Output('main-content', 'children', allow_duplicate=True),
+#     [Input('name-dropdown', 'value'),
+#      Input('diet-dropdown', 'value'),
+#      Input('period-dropdown', 'value'),
+#      Input('live_in_dropdown', 'value'),
+#      Input('type-dropdown', 'value')]
+# )
+# def update_dino_info(name, diet, period, place, type_):
+#     dino = df[(df['diet'] == diet) | (df['period'] == period) | (df['lived_in'] == place) | (df['type'] == type_)]
+#     if not dino.empty:
+#         return html.Div([
+#              html.Div([
+#                 html.Div([
+#                     html.H1(dino['name'].values[0].upper()),
+#                     html.Img(src=dino['image'].values[0], alt='Image Description')
+#                 ], style={'flex': '1'}),
+#                 html.Div([
+#                     html.P([html.I(className="fas fa-utensils"), f"  Diet: {dino['diet'].values[0]}"]),
+#                     html.P([html.I(className="fas fa-clock"), f"  Period: {dino['period'].values[0]}"]),
+#                     html.P([html.I(className="fas fa-globe"), f"  Lived in: {dino['lived_in'].values[0]}"]),
+#                     html.P([html.I(className="fas fa-paw"), f"  Type: {dino['type'].values[0]}"]),
+#                     html.P([html.I(className="fas fa-ruler"), f"  Length: {dino['length'].values[0]}m"]),
+#                     html.P([html.I(className="fas fa-signature"), f"  Named by: {dino['named_by'].values[0]}"]),
+#                 ], style={'flex': '1', 'margin-left': '20px', 'margin-top':'70px'}),
+#             ], style=styles['dino-details']),
+#             # Display world map below dinosaur image and information
+#             dcc.Graph(id='world-map', figure=update_world_map(dino['lived_in'].values[0]))
+#         ], style={'display': 'flex', 'flex-direction': 'column'})
+#     else:
+#         return html.P("No dinosaur found with selected criteria")
+
+# Callback to update dinosaur info based on selected name
 @app.callback(
-    Output('main-content', 'children'),
+    Output('main-content', 'children', allow_duplicate=True),
     [Input('name-dropdown', 'value')]
 )
-def update_dino_cards(name):
-    print(name)
-    if name is None:
-        # If no name is selected, display cards for all dinosaurs
-        print(1)
+def update_dino_info_by_name(name):
+    dino = df[df['name'] == name]
+    if not dino.empty:
         return html.Div([
-            html.H1('Dinosaur World', style={'margin-bottom': '20px', 'text-align':'center'}),
             html.Div([
                 html.Div([
-                    html.Div([
-                        html.Img(src=df[df['name'] == name]['image'].values[0], alt='Image Description', style={'width': '250%'}),
-                        html.H4(name.upper()),
-                    ], style=styles['dino-card'])
-                ], style={'display': 'inline-block', 'margin-left': '3%', 'margin-right': '2%', 'width': '20%'}) for name in df['name']
-            ])
-        ])
-    else:
-        # If a name is selected, display the details of that dinosaur
-        dino = df[df['name'] == name]
-        if not dino.empty:
-            return html.Div([
+                    html.H1(dino['name'].values[0].upper()),
+                    html.Img(src=dino['image'].values[0], alt='Image Description')
+                ], style={'flex': '1'}),
                 html.Div([
-                    html.Div([
-                        html.H1(dino['name'].values[0].upper()),
-                        html.Img(src=dino['image'].values[0], alt='Image Description')
-                    ], style={'flex': '1'}),
-                    html.Div([
-                        html.P([html.I(className="fas fa-utensils"), f"  Diet: {dino['diet'].values[0]}"]),
-                        html.P([html.I(className="fas fa-clock"), f"  Period: {dino['period'].values[0]}"]),
-                        html.P([html.I(className="fas fa-globe"), f"  Lived in: {dino['lived_in'].values[0]}"]),
-                        html.P([html.I(className="fas fa-paw"), f"  Type: {dino['type'].values[0]}"]),
-                        html.P([html.I(className="fas fa-ruler"), f"  Length: {dino['length'].values[0]}m"]),
-                        html.P([html.I(className="fas fa-signature"), f"  Named by: {dino['named_by'].values[0]}"]),
-                    ], style={'flex': '1', 'margin-left': '20px', 'margin-top':'70px'}),
-                ], style=styles['dino-details']),
-                # Display world map below dinosaur image and information
-                dcc.Graph(id='world-map', figure=update_world_map(dino['lived_in'].values[0]))
-            ], style={'display': 'flex', 'flex-direction': 'column'})
-        else:
-            return html.P("No dinosaur found with selected criteria")
+                    html.P([html.I(className="fas fa-utensils"), f"  Diet: {dino['diet'].values[0]}"]),
+                    html.P([html.I(className="fas fa-clock"), f"  Period: {dino['period'].values[0]}"]),
+                    html.P([html.I(className="fas fa-globe"), f"  Lived in: {dino['lived_in'].values[0]}"]),
+                    html.P([html.I(className="fas fa-paw"), f"  Type: {dino['type'].values[0]}"]),
+                    html.P([html.I(className="fas fa-ruler"), f"  Length: {dino['length'].values[0]}m"]),
+                    html.P([html.I(className="fas fa-signature"), f"  Named by: {dino['named_by'].values[0]}"]),
+                ], style={'flex': '1', 'margin-left': '20px', 'margin-top':'70px'}),
+            ], style=styles['dino-details']),
+            # Display world map below dinosaur image and information
+            dcc.Graph(id='world-map', figure=update_world_map(dino['lived_in'].values[0]))
+        ], style={'display': 'flex', 'flex-direction': 'column'})
+    else:
+        return html.P("No dinosaur found with selected criteria")
 
 # Callback to update world map based on selected country
 def update_world_map(lived_in):
@@ -191,4 +194,3 @@ def update_world_map(lived_in):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
