@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Albert Sans");
+
+body {
+  font-family: "Albert Sans", sans-serif;
+  padding: 10px;
+}
+
+.box {
+  flex: 1;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.graph-container {
+  margin-bottom: 20px;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown-label {
+  font-weight: bold;
+}
