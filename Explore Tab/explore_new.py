@@ -172,7 +172,7 @@ def update_dino_cards(name):
                         html.P([html.I(className="fas fa-clock"), f"  Period: {dino['period'].values[0]}"]),
                         html.P([html.I(className="fas fa-globe"), f"  Lived in: {dino['lived_in'].values[0]}"]),
                         html.P([html.I(className="fas fa-paw"), f"  Type: {dino['type'].values[0]}"]),
-                        html.P([html.I(className="fas fa-ruler"), f"  Length: {dino['length'].values[0]}m"]),
+                        html.P([html.I(className="fas fa-ruler"), f"  Length: {dino['length'].values[0]}"]),
                         html.P([html.I(className="fas fa-signature"), f"  Named by: {dino['named_by'].values[0]}"]),
                     ], style={'flex': '1', 'margin-left': '20px', 'margin-top':'70px'}),
                 ], style=styles['dino-details']),
