@@ -8,7 +8,7 @@ from period_tab import period_layout
 from type_tab import type_layout
 
 layout = html.Div([
-    html.H2('Dinosaur Data Analysis', style={'margin-top':'10px'}),
+    # html.H2('Dinosaur Data Analysis', style={'margin-top':'10px'}),
     dcc.Tabs(id='tabs', value='tab-overview', children=[
         dcc.Tab(label='Overview', value='tab-overview'),
         dcc.Tab(label='Period Analysis', value='tab-period'),

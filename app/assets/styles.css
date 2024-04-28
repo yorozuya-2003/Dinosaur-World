@@ -3,7 +3,7 @@
 
 body {
   font-family: "Albert Sans", sans-serif;
-  padding-top: 50px; 
+  padding-top: 50px;
 }
 
 .box {
@@ -68,7 +68,7 @@ body {
 
 .main-container {
   display: flex;
-  /* font-family: 'Poppins', sans-serif; */
+
 }
 
 .sidebar {
@@ -76,7 +76,7 @@ body {
   color: #fff;
   width: 260px;
   padding: 20px;
-  /* font-family: 'Poppins', sans-serif; */
+
   position: fixed;
   height: 100vh;
   overflow-y: auto;
@@ -87,11 +87,51 @@ body {
   padding: 30px;
   background: #f4f4f4;
   color: #333;
-  /* font-family: 'Poppins', sans-serif; */
+
   margin-left: 300px;
-  /* align: center; */
+
 }
 
 .discovery-frame {
-   overflow-y: auto;
+  overflow-y: auto;
+}
+
+#scroll-down-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#scroll-down-button {
+  font-size: 60px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+#scroll-down-button:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+
+#scroll-up-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#scroll-up-button {
+  font-size: 60px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+#scroll-up-button:hover {
+  color: #ccc;
+  cursor: pointer;
 }
