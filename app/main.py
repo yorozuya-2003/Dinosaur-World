@@ -6,12 +6,14 @@ from app import app
 
 import analysis
 import explore
+import discover
 
 nav = html.Div([
         dbc.NavbarSimple(
             children=[
                 dbc.NavItem(dbc.NavLink("Analyze", href="/analysis")),
                 dbc.NavItem(dbc.NavLink("Explore", href="/explore")),
+                dbc.NavItem(dbc.NavLink("Discover", href="/discover")),
             ] ,
             brand="Dinosaurs",
             brand_href="/analysis",
@@ -34,6 +36,8 @@ def display_page(pathname):
         return analysis.layout
     if pathname == '/explore':
         return explore.layout
+    if pathname == "/discover":
+        return discover.layout
     else:
         return analysis.layout
 
