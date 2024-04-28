@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Albert Sans");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+body {
+  font-family: "Albert Sans", sans-serif;
+  padding-top: 50px; 
+}
+
+.box {
+  flex: 1;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.row-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.graph-container {
+  margin-bottom: 20px;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown-label {
+  font-weight: bold;
+}
+
+.custom-dropdown {
+  color: #000;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.dropdown-label {
+  margin-bottom: 5px;
+}
+
+.dino-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dino-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 0px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+  margin-right: 2%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.sidebar {
+  background: #11101d;
+  color: #fff;
+  width: 260px;
+  padding: 20px;
+  /* font-family: 'Poppins', sans-serif; */
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.main-content {
+  flex: 3;
+  padding: 30px;
+  background: #f4f4f4;
+  color: #333;
+  /* font-family: 'Poppins', sans-serif; */
+  margin-left: 300px;
+  /* align: center; */
+}
