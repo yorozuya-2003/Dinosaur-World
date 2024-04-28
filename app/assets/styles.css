@@ -91,3 +91,7 @@ body {
   margin-left: 300px;
   /* align: center; */
 }
+
+.discovery-frame {
+   overflow-y: auto;
+}
