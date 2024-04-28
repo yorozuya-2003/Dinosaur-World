@@ -26,6 +26,7 @@ with open('iso_mapping.json', 'r') as openfile:
     iso_mapping = json.load(openfile)
 
 country_counts = df['lived_in'].value_counts().reset_index()
+country_counts.columns = ['lived_in', 'count']
 country_counts['lived_in_iso'] = country_counts.lived_in.map(iso_mapping)
 # country_counts['lived_in_iso'] = cc.pandas_convert(series=country_counts.lived_in, to='ISO3')
 # country_counts.to_csv('country_counts.csv', index=False)
@@ -85,5 +86,6 @@ def analysis_plot_figure(filter_by, filter):
 def filter_world_counts(column, value):
     data = df[df[column]==value]
     data = data['lived_in'].value_counts().reset_index()
+    data.columns = ['lived_in', 'count']
     data['lived_in_iso'] = data.lived_in.map(iso_mapping)
     return data

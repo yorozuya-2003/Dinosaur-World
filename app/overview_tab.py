@@ -121,6 +121,7 @@ overview_layout = html.Div([
 def update_diet_distribution_donut(selected_diet):
     filtered_df = df[df['diet'].isin(selected_diet)]
     diet_counts = filtered_df['diet'].value_counts().reset_index()
+    diet_counts.columns = ['diet', 'count']
     fig = px.pie(diet_counts,
                 names='diet',
                 values='count', 
@@ -142,6 +143,7 @@ def update_diet_distribution_donut(selected_diet):
 def update_period_distribution_donut(selected_period):
     filtered_df = df[df['period'].isin(selected_period)]
     period_counts = filtered_df['period'].value_counts().reset_index()
+    period_counts.columns = ['period', 'count']
     fig = px.pie(period_counts,
                 names='period',
                 values='count', 
@@ -163,6 +165,7 @@ def update_period_distribution_donut(selected_period):
 def update_type_distribution_donut(selected_type):
     filtered_df = df[df['type'].isin(selected_type)]
     type_counts = filtered_df['type'].value_counts().reset_index()
+    type_counts.columns = ['type', 'count']
     fig = px.pie(type_counts,
                 names='type',
                 values='count', 

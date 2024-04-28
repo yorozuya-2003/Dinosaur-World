@@ -39,6 +39,7 @@ period_layout = html.Div([
 )
 def update_period_distribution_bar(hoverData):
     period_counts = df['period'].value_counts().reset_index()
+    period_counts.columns = ['period', 'count']
     fig = px.bar(period_counts,
                 x='period',
                 y='count',

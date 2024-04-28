@@ -39,6 +39,7 @@ type_layout = html.Div([
 )
 def update_type_distribution_bar(hoverData):
     type_counts = df['type'].value_counts().reset_index()
+    type_counts.columns = ['type', 'count']
     fig = px.bar(type_counts,
                 x='type',
                 y='count',

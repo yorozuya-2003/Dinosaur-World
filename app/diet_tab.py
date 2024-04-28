@@ -39,6 +39,7 @@ diet_layout = html.Div([
 )
 def update_diet_distribution_bar(hoverData):
     diet_counts = df['diet'].value_counts().reset_index()
+    diet_counts.columns = ['diet', 'count']
     fig = px.bar(diet_counts,
                 x='diet',
                 y='count',

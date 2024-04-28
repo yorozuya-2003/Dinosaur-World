@@ -89,7 +89,7 @@ def update_dino_cards(name):
                 html.Div([
                     html.Div([
                         html.Img(src=app.get_asset_url(f'images/{name}.jpg'), alt='Image Description', style={'width': '250%'}),
-                        html.H4(name.upper()),
+                        html.H5(name.upper()),
                     ], className='dino-card')
                 ], style={'display': 'inline-block', 'margin-left': '3%', 'margin-right': '2%', 'width': '20%'}) for name in df['name']
             ])
@@ -116,7 +116,7 @@ def update_dino_cards(name):
                 # display world map below dinosaur image and information
                 html.H2('Dinosaur Habitat'),
                 dcc.Graph(id='world-map', figure=update_world_map(dino['lived_in'].values[0])),
-            ], style={'display': 'flex', 'flex-direction': 'column'})
+            ], style={'display': 'flex', 'flex-direction': 'column', 'z-index': '-1'})
         else:
             return html.P("No dinosaur found with selected criteria")
 
