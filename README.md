@@ -4,6 +4,26 @@
 
 This project is a data visualization tool built using Plotly Dash, allowing users to explore various aspects of dinosaur data, including period, diet, type, and geographical distribution.
 
+## User Interface Preview
+![homepage](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/2bbb1f51-2ddc-4040-87c2-a902b8f31f50)
+
+**3D earth model to locate dinosaur habitats across the globe**
+![globe](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/10922b29-07c3-4abc-a59c-645892b434a4)
+
+**Analytics based on species, type, time-period, diet and habitat location**
+![analytics](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/0020ccb9-0ee7-4a48-b0c4-2d80632f1b82)
+![distribution_charts](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/f465b087-114b-4010-8565-3157a07e800b)
+
+**Distribution charts showing relationship among different parameters**
+![multiple_distributions](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/dbfe58a3-0060-439f-9bab-e3518ebb77f4)
+
+**Dinosaur directory for detailed exploration**
+![dinosaur_directory](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/2b4c5156-35af-4a97-a9d2-50d4698213ae)
+![dino_detail](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/530cacef-73c7-42b4-9f3c-76f8aa3d8350)
+
+**Archaeological insights**
+![discover](https://github.com/yorozuya-2003/Dinosaur-World/assets/101598170/46060753-e54d-4dcc-86f6-577edae817e6)
+
 ## Directory Structure
 
 | Directory       | Description                                                  |
